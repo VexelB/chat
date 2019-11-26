@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+div{
+  margin: 0.25vh;
+}
+
+#all{
+  display: flex;
+}
+
+#users{
+  border: medium solid;
+  width: 19vw;
+  word-break: break-all;
+  overflow: auto;
+}
+
+#messagescon{
+  width: 80vw;
+  height: 95vh;
+  border: solid;
+}
+
+#messages{
+  background-color: lightgrey;
+  width: 79,5vw;
+  height:89vh;
+  word-break: break-all;
+  display: flex;
+}
+
+#msg {
+  width: 79vw;
+  overflow: auto;
+}
